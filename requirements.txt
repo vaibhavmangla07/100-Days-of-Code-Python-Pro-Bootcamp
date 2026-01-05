@@ -1,0 +1,11 @@
+pandas
+pillow
+pyperclip
+requests
+twilio
+python-dotenv
+beautifulsoup4
+lxml
+spotipy
+selenium
+webdriver-manager
