@@ -1,0 +1,1 @@
+myFavNumber = 7
