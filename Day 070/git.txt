@@ -1,0 +1,175 @@
+==============================
+GIT COMMANDS (macOS)
+==============================
+
+------------------------------
+BASIC SETUP
+------------------------------
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+git config --global --list
+
+------------------------------
+CREATING & INITIALIZING REPOS
+------------------------------
+git init
+git init <repo-name>
+git clone <repository-url>
+git clone <repository-url> <folder-name>
+
+------------------------------
+CHECKING STATUS & INFO
+------------------------------
+git status
+git log
+git log --oneline
+git log --graph --oneline --all
+git show <commit-hash>
+git diff
+git diff --staged
+
+------------------------------
+ADDING FILES
+------------------------------
+git add <file-name>
+git add .
+git add -A
+git add *.py
+
+------------------------------
+COMMITTING CHANGES
+------------------------------
+git commit -m "commit message"
+git commit -am "add and commit tracked files"
+git commit --amend -m "new commit message"
+
+------------------------------
+BRANCHING
+------------------------------
+git branch
+git branch <branch-name>
+git branch -d <branch-name>
+git branch -D <branch-name>
+git checkout <branch-name>
+git checkout -b <branch-name>
+git switch <branch-name>
+git switch -c <branch-name>
+
+------------------------------
+MERGING
+------------------------------
+git merge <branch-name>
+git merge --abort
+
+------------------------------
+REMOTE REPOSITORIES
+------------------------------
+git remote -v
+git remote add origin <repo-url>
+git remote remove origin
+git remote rename origin upstream
+
+------------------------------
+PUSHING CHANGES
+------------------------------
+git push
+git push origin main
+git push -u origin main
+git push origin <branch-name>
+git push --force
+git push --force-with-lease
+
+------------------------------
+PULLING & FETCHING
+------------------------------
+git pull
+git pull origin main
+git fetch
+git fetch origin
+
+------------------------------
+RESET & REVERT
+------------------------------
+git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
+git reset <file-name>
+git revert <commit-hash>
+
+------------------------------
+STASH
+------------------------------
+git stash
+git stash list
+git stash apply
+git stash pop
+git stash drop
+git stash clear
+
+------------------------------
+TAGGING
+------------------------------
+git tag
+git tag <tag-name>
+git tag -a <tag-name> -m "tag message"
+git push origin <tag-name>
+git push --tags
+
+------------------------------
+FILE & HISTORY CLEANUP
+------------------------------
+git rm <file-name>
+git rm -r <folder-name>
+git mv <old-name> <new-name>
+git clean -f
+git clean -fd
+
+------------------------------
+UNDO & RECOVERY
+------------------------------
+git checkout -- <file-name>
+git restore <file-name>
+git restore --staged <file-name>
+git reflog
+
+------------------------------
+LOG FILTERING
+------------------------------
+git log --author="name"
+git log --since="2 weeks ago"
+git log -- <file-name>
+
+------------------------------
+WORKING WITH FILES
+------------------------------
+git blame <file-name>
+git show HEAD:<file-name>
+
+------------------------------
+GIT IGNORE
+------------------------------
+touch .gitignore
+nano .gitignore
+vim .gitignore
+
+------------------------------
+GITHUB (COMMON FLOW)
+------------------------------
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin <repo-url>
+git push -u origin main
+
+------------------------------
+HELP
+------------------------------
+git help
+git help <command>
+git <command> --help
+
+==============================
+END OF FILE
+==============================
