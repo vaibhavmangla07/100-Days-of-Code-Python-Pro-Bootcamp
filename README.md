@@ -15,8 +15,7 @@ This bootcamp includes core Python topics like:
 - Data manipulation with lists & dicts  
 - Building small games and utilities  
 - Project structure and problem solving
-
-*(You can customize this list with what you actually covered.)*
+- Web Frameworks and Data Cleaning, Visualisation, Analysis
 
 ## 🚀 Getting Started
 
@@ -27,14 +26,13 @@ To explore this repository:
 ```
 git clone https://github.com/vaibhavmangla07/80-Days-of-Code-Python-Pro-Bootcamp.git
 ```
-Open the notebooks/code files (e.g., in VS Code, Jupyter, or your editor of choice).
+Open the notebooks/code files (e.g., in VS Code, Jupyter, or your preferred editor).
 
 Run the code for fun and experimentation!
 
 📝 Requirements
 This repo mostly contains Python code and Jupyter notebooks. To run them locally, you may want:
-
-bash
-Copy code
+```
 pip install -r requirements.txt
+```
 (Add libraries you use, if any.)
