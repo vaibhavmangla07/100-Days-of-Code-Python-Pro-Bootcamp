@@ -21,7 +21,7 @@ This bootcamp includes core Python topics like:
 
 To explore this repository:
 
-1. **Clone the repository:**
+**Clone the repository:**
 
 ```
 git clone https://github.com/vaibhavmangla07/80-Days-of-Code-Python-Pro-Bootcamp.git
